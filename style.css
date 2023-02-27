@@ -1,0 +1,15 @@
+body{
+  background-image: url("1600w-iC5A8PGB4t0.webp");
+  background-size: cover;
+}
+@keyframes catch {
+  from{margin-left:0px;}
+  to{margin-left: 100%;}
+}
+
+#select{
+  height: 150px;
+  width: 150px;
+  animation-name: catch;
+  animation-duration: 2s;
+}
